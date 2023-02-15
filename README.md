@@ -4,5 +4,5 @@ Exercise focuses on learning to use Webpack, OOP, module pattern, and DOM manipu
 
 
 Start at 5.
-if using import/export, there may need to be a setting change in prettier or eslint that needs to happen to reflect this
-also may need to change that we're using JS modules rather than commonJS
+  how to append html tags in proper order on page load in index.js
+  how to import/export modules appropriately
