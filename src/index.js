@@ -1,4 +1,22 @@
+function createHeader() {
+  const header = document.createElement('header');
 
+  const title = document.createElement('h1');
+  title.setAttribute('id', 'title');
+  title.textContent = "LFizzle Invitational";
+
+  header.appendChild(title);
+
+  return header;
+};
+
+function createNav() {
+
+};
+
+function createMain() {
+
+};
 
 
 
