@@ -4,5 +4,5 @@ function createHistory() {
 };
 
 export {
-  createHistory;
+  createHistory
 };
