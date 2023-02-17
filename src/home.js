@@ -130,6 +130,14 @@ function createMain() {
   return main;
 };
 
+function loadHome() {
+  const content = document.getElementById("content");
+
+  content.appendChild(createHeader());
+  content.appendChild(createNav());
+  content.appendChild(createMain());
+};
+
 export {
   createHeader,
   createNav,
