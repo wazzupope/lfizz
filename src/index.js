@@ -89,6 +89,8 @@ function createNav() {
   standingsBox.appendChild(standingsIcon);
   standingsBox.appendChild(standingsText);
   nav.appendChild(standingsBox);
+
+  return nav;
 };
 
 function createMain() {
@@ -124,4 +126,6 @@ function createMain() {
   mainSection.appendChild(town);
   mainSection.appendChild(phone);
   main.appendChild(mainSection);
+
+  return main;
 };
