@@ -1,19 +1,28 @@
+function createRules() {
+  const rules = document.createElement('div');
+  rules.setAttribute('id', 'rules-div');
 
+  const rulesList = document.createElement('ul');
 
+  const rule1 = document.createElement('li');
+  rule1.textContent = "One mulligan per round";
 
-/*
-<div id="rules-div">
-  <ul>
-    <li>One mulligan per round</li>
-    <li>Ready golf</li>
-    <li>Take a provisional</li>
-    <li>Gimmes are up to group consensus</li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
-</div>
-*/
+  const rule2 = document.createElement('li');
+  rule2.textContent = "Ready golf";
+
+  const rule3 = document.createElement('li');
+  rule3.textContent = "Take a provisional";
+
+  const rule4 = document.createElement('li');
+  rule4.textContent = "Gimmes are up to group consensus";
+
+  rulesList.appendChild(rule1);
+  rulesList.appendChild(rule2);
+  rulesList.appendChild(rule3);
+  rulesList.appendChild(rule4);
+  rules.appendChild(rulesList);
+};
+
+export {
+  createRules
+};
