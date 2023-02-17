@@ -23,6 +23,19 @@ function createRules() {
   rules.appendChild(rulesList);
 };
 
+function loadRules() {
+  const content = document.getElementById("content");
+
+  while (content.lastChild) {
+    content.lastChild.remove();
+  }
+
+  content.appendChild(createHeader());
+  content.appendChild(createNav());
+  content.appendChild(createRules());
+};
+
 export {
-  createRules
+  createRules,
+  loadRules
 };
