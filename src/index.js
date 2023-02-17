@@ -6,3 +6,7 @@ import {createStandings, loadStandings} from './standings.js';
 
 loadHome();
 
+rulesBox.addEventListener('click', loadRules);
+historyBox.addEventListener('click', loadHistory);
+pairingsBox.addEventListener('click', loadPairings);
+standingsBox.addEventListener('click', loadStandings);
