@@ -4,5 +4,4 @@ Exercise focuses on learning to use Webpack, OOP, module pattern, and DOM manipu
 
 
 Start at 5.
-  how to append html tags in proper order on page load in index.js
   how to import/export modules appropriately
