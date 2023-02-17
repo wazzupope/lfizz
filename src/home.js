@@ -141,5 +141,6 @@ function loadHome() {
 export {
   createHeader,
   createNav,
-  createMain
+  createMain,
+  loadHome
 };
