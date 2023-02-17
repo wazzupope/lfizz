@@ -129,3 +129,9 @@ function createMain() {
 
   return main;
 };
+
+export {
+  createHeader,
+  createNav,
+  createMain
+};
