@@ -1,3 +1,9 @@
+import {loadHome} from './home.js';
+import {loadRules} from './rules.js';
+import {loadHistory} from './history.js';
+import {loadPairings} from './pairings.js';
+import {loadStandings} from './standings.js';
+
 function createHeader() {
   const header = document.createElement('header');
 
