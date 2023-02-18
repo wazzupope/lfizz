@@ -1,4 +1,3 @@
-import {loadHome} from './home.js';
 import {loadRules} from './rules.js';
 import {loadHistory} from './history.js';
 import {loadPairings} from './pairings.js';
