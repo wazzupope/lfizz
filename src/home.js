@@ -1,7 +1,7 @@
-import {createRule, loadRules} from './rules';
-import {createHistory, loadHistory} from './history';
-import {createPairings, loadPairings} from './pairings';
-import {createStandings, loadStandings} from './standings';
+import {loadRules} from './rules';
+import {loadHistory} from './history';
+import {loadPairings} from './pairings';
+import {loadStandings} from './standings';
 
 const title = document.createElement('h1');
 
