@@ -4,6 +4,7 @@ function createHeader() {
   const title = document.createElement('h1');
   title.setAttribute('id', 'title');
   title.textContent = "LFizzle Invitational";
+  title.addEventListener('click', loadHome);
 
   header.appendChild(title);
 
@@ -17,6 +18,7 @@ function createNav() {
   const rulesBox = document.createElement('div');
   rulesBox.setAttribute('id', 'rules-box');
   rulesBox.classList.add("nav-boxes");
+  rulesBox.addEventListener('click', loadRules);
 
   const rulesIcon = document.createElement('div');
   rulesIcon.setAttribute('id', 'rules-icon');
@@ -32,6 +34,7 @@ function createNav() {
   const historyBox = document.createElement('div');
   historyBox.setAttribute('id', 'history-box');
   historyBox.classList.add("nav-boxes");
+  historyBox.addEventListener('click', loadHistory);
 
   const historyIcon = document.createElement('div');
   historyIcon.setAttribute('id', 'history-icon');
@@ -47,6 +50,7 @@ function createNav() {
   const pairingsBox = document.createElement('div');
   pairingsBox.setAttribute('id', 'pairings-box');
   pairingsBox.classList.add("nav-boxes");
+  pairingsBox.addEventListener('click', loadPairings);
 
   const pairingsIcon = document.createElement('div');
   pairingsIcon.setAttribute('id', 'pairings-icon');
@@ -62,6 +66,7 @@ function createNav() {
   const standingsBox = document.createElement('div');
   standingsBox.setAttribute('id', 'standings-box');
   standingsBox.classList.add("nav-boxes");
+  standingsBox.addEventListener('click', loadStandings);
 
   const standingsIcon = document.createElement('div');
   standingsIcon.setAttribute('id', 'standings-icon');
