@@ -1,3 +1,5 @@
+import {createHeader, createNav} from './home';
+
 function createRules() {
   const rules = document.createElement('div');
   rules.setAttribute('id', 'rules-div');
