@@ -1,15 +1,15 @@
-import {loadRules} from './rules.js';
-import {loadHistory} from './history.js';
-import {loadPairings} from './pairings.js';
-import {loadStandings} from './standings.js';
+import {loadRules} from './rules';
+import {loadHistory} from './history';
+import {loadPairings} from './pairings';
+import {loadStandings} from './standings';
+
+const title = document.createElement('h1');
 
 function createHeader() {
   const header = document.createElement('header');
 
-  const title = document.createElement('h1');
   title.setAttribute('id', 'title');
   title.textContent = "LFizzle Invitational";
-  title.addEventListener('click', loadHome);
 
   header.appendChild(title);
 
@@ -151,6 +151,8 @@ function loadHome() {
   content.appendChild(createNav());
   content.appendChild(createMain());
 };
+
+title.addEventListener('click', loadHome);
 
 export {
   createHeader,
