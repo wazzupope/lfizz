@@ -1,5 +1,3 @@
-import {createHeader, createNav} from './home';
-
 function createPairings() {
   const pairings = document.createElement('div');
   pairings.textContent = "Pairings";
@@ -8,18 +6,13 @@ function createPairings() {
 };
 
 function loadPairings() {
-  const content = document.getElementById("content");
+  const main = document.getElementById("main");
 
-  while (content.lastChild) {
-    content.lastChild.remove();
+  while (main.lastChild) {
+    main.lastChild.remove();
   }
 
-  content.appendChild(createHeader());
-  content.appendChild(createNav());
-  content.appendChild(createPairings());
+  main.appendChild(createPairings());
 };
 
-export {
-  createPairings,
-  loadPairings
-};
+export default loadPairings;
