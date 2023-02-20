@@ -1,5 +1,3 @@
-import {createHeader, createNav} from './home';
-
 function createRules() {
   const rules = document.createElement('div');
   rules.setAttribute('id', 'rules-div');
@@ -28,18 +26,13 @@ function createRules() {
 };
 
 function loadRules() {
-  const content = document.getElementById("content");
+  const main = document.getElementById("main");
 
-  while (content.lastChild) {
-    content.lastChild.remove();
+  while (main.lastChild) {
+    main.lastChild.remove();
   }
 
-  content.appendChild(createHeader());
-  content.appendChild(createNav());
-  content.appendChild(createRules());
+  main.appendChild(createRules());
 };
 
-export {
-  createRules,
-  loadRules
-};
+export default loadRules;
