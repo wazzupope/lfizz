@@ -153,9 +153,4 @@ function loadHome() {
   content.appendChild(createMain());
 };
 
-export {
-  createHeader,
-  createNav,
-  createMain,
-  loadHome
-};
+export default loadHome;
