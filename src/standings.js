@@ -18,4 +18,6 @@ function loadStandings() {
   main.appendChild(createStandings());
 };
 
-export default loadStandings;
+export {
+  loadStandings;
+};

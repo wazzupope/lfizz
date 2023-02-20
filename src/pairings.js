@@ -15,4 +15,6 @@ function loadPairings() {
   main.appendChild(createPairings());
 };
 
-export default loadPairings;
+export {
+  loadPairings;
+};

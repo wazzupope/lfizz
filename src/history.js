@@ -15,4 +15,6 @@ function loadHistory() {
   main.appendChild(createHistory());
 };
 
-export default loadHistory;
+export {
+  loadHistory;
+};

@@ -153,4 +153,6 @@ function loadHome() {
   content.appendChild(createMain());
 };
 
-export default loadHome;
+export {
+  loadHome;
+};

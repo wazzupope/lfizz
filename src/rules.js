@@ -35,4 +35,6 @@ function loadRules() {
   main.appendChild(createRules());
 };
 
-export default loadRules;
+export {
+  loadRules;
+};
