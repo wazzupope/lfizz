@@ -3,6 +3,8 @@ import {createHeader, createNav} from './home';
 function createPairings() {
   const pairings = document.createElement('div');
   pairings.textContent = "Pairings";
+
+  return pairings;
 };
 
 function loadPairings() {

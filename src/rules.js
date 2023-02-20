@@ -23,6 +23,8 @@ function createRules() {
   rulesList.appendChild(rule3);
   rulesList.appendChild(rule4);
   rules.appendChild(rulesList);
+
+  return rules;
 };
 
 function loadRules() {

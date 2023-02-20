@@ -6,6 +6,8 @@ import {createHeader, createNav} from './home';
 function createStandings() {
   const standings = document.createElement('div');
   standings.textContent = "Standings";
+
+  return standings;
 };
 
 function loadStandings() {

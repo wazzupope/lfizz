@@ -3,6 +3,8 @@ import {createHeader, createNav} from './home';
 function createHistory() {
   const history = document.createElement('div');
   history.textContent = "History";
+
+  return history;
 };
 
 function loadHistory() {
