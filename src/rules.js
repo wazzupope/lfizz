@@ -36,5 +36,5 @@ function loadRules() {
 };
 
 export {
-  loadRules;
+  loadRules
 };

@@ -16,5 +16,5 @@ function loadHistory() {
 };
 
 export {
-  loadHistory;
+  loadHistory
 };

@@ -19,5 +19,5 @@ function loadStandings() {
 };
 
 export {
-  loadStandings;
+  loadStandings
 };

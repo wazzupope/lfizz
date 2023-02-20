@@ -154,5 +154,5 @@ function loadHome() {
 };
 
 export {
-  loadHome;
+  loadHome
 };
