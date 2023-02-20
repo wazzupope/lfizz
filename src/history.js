@@ -1,5 +1,3 @@
-import {createHeader, createNav} from './home';
-
 function createHistory() {
   const history = document.createElement('div');
   history.textContent = "History";
@@ -8,18 +6,13 @@ function createHistory() {
 };
 
 function loadHistory() {
-  const content = document.getElementById("content");
+  const main = document.getElementById("main");
 
-  while (content.lastChild) {
-    content.lastChild.remove();
+  while (main.lastChild) {
+    main.lastChild.remove();
   }
 
-  content.appendChild(createHeader());
-  content.appendChild(createNav());
-  content.appendChild(createHistory());
+  main.appendChild(createHistory());
 };
 
-export {
-  createHistory,
-  loadHistory
-};
+export default loadHistory;
