@@ -3,8 +3,6 @@ import {loadHistory} from './history';
 import {loadPairings} from './pairings';
 import {loadStandings} from './standings';
 
-
-
 function createHeader() {
   const header = document.createElement('header');
 
