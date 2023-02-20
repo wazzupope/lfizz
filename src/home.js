@@ -105,6 +105,7 @@ function createNav() {
 
 function createMain() {
   const main = document.createElement('main');
+  main.setAttribute('id', 'main');
 
   const mainSection = document.createElement('section');
   mainSection.setAttribute('id', 'main-section');
