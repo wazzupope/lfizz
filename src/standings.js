@@ -1,8 +1,6 @@
 // do a true leaderboard, sortable, with gross score, net score, 9 hole scores broken down by round and front/back, # of snowmen, # of birdies
 // modify view for mobile so that you can scroll right to see sortable categories, when pushing sort on one, it doesn't scroll back to the left
 
-import {createHeader, createNav} from './home';
-
 function createStandings() {
   const standings = document.createElement('div');
   standings.textContent = "Standings";
@@ -11,18 +9,13 @@ function createStandings() {
 };
 
 function loadStandings() {
-  const content = document.getElementById("content");
+  const main = document.getElementById("main");
 
-  while (content.lastChild) {
-    content.lastChild.remove();
+  while (main.lastChild) {
+    main.lastChild.remove();
   }
 
-  content.appendChild(createHeader());
-  content.appendChild(createNav());
-  content.appendChild(createStandings());
+  main.appendChild(createStandings());
 };
 
-export {
-  createStandings,
-  loadStandings
-};
+export default loadStandings;
